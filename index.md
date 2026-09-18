@@ -30,9 +30,7 @@ BiteCast не має акаунтів, не збирає статистики, �
 
 **4. Резервна копія у файл, який робите ви самі.** Додаток збирає ваші водойми, точки, проміри, щоденник і налаштування в один файл і кладе його туди, куди ви вкажете. Цей файл нікуди не надсилається. Фото уловів у нього не входять — у базі зберігається лише шлях до знімка.
 
-**5. Автоматична копія Android → ваш Google Drive.** Це робить операційна система, а не додаток. Якщо резервне копіювання ввімкнене у вашому телефоні, Android час від часу копіює дані BiteCast у ваш власний Google Drive і повертає їх при перевстановленні або переході на новий телефон. Ця копія належить вашому акаунту й підпадає під правила Google; ми до неї доступу не маємо. Вимкнути це можна в налаштуваннях телефона: «Налаштування Google → Резервне копіювання».
-
-**6. Координати точки → картографічний додаток, який ви оберете.** Це відбувається лише коли ви натискаєте «Навігація». Операційна система показує список додатків, які вміють карти, і туди йде координата точки з її назвою. Далі ці дані живуть за правилами того додатка. Якщо жоден додаток не візьме точку, вона відкриється на карті OpenStreetMap у браузері — тоді координата видна серверу `openstreetmap.org`.
+**5. Координати точки → картографічний додаток, який ви оберете.** Це відбувається лише коли ви натискаєте «Навігація». Операційна система показує список додатків, які вміють карти, і туди йде координата точки з її назвою. Далі ці дані живуть за правилами того додатка. Якщо жоден додаток не візьме точку, вона відкриється на карті OpenStreetMap у браузері — тоді координата видна серверу `openstreetmap.org`.
 
 Це весь перелік. Інших мережевих звернень у додатку немає.
 
@@ -70,7 +68,7 @@ BiteCast не має акаунтів, не збирає статистики, �
 
 Оновлення додатка нічого не стирає.
 
-Резервних копій на наших серверах не існує, бо серверів немає. Якщо ввімкнене автоматичне копіювання Android, дані можуть повернутися з вашого Google Drive після перевстановлення.
+Резервних копій на наших серверах не існує, бо серверів немає. Системним резервним копіюванням телефона додаток теж не користується: видалення додатка або очищення його даних стирає все остаточно. Єдиний спосіб перенести своє на інший телефон — резервна копія у файл, яку ви робите самі.
 
 ## Діти
 
@@ -122,9 +120,7 @@ This data is stored inside the app's sandbox on your device.
 
 **4. A backup file that you create yourself.** The app collects your waters, marks, soundings, journal and settings into a single file and puts it where you choose. This file is not sent anywhere. Catch photos are not included — the database stores only the path to the image.
 
-**5. Android automatic backup → your own Google Drive.** This is done by the operating system, not by the app. If backup is enabled on your phone, Android periodically copies BiteCast data to your own Google Drive and restores it on reinstall or on a new phone. That copy belongs to your account and is governed by Google's rules; we have no access to it. You can turn it off in your phone settings: "Google Settings → Backup".
-
-**6. Coordinates of a mark → the maps app you choose.** This happens only when you tap "Navigate". The operating system shows the list of apps that handle maps, and the coordinate with its name goes there. From that point the data lives by that app's rules. If no app takes the mark, it opens on the OpenStreetMap website — then the coordinate is visible to `openstreetmap.org`.
+**5. Coordinates of a mark → the maps app you choose.** This happens only when you tap "Navigate". The operating system shows the list of apps that handle maps, and the coordinate with its name goes there. From that point the data lives by that app's rules. If no app takes the mark, it opens on the OpenStreetMap website — then the coordinate is visible to `openstreetmap.org`.
 
 That is the complete list. The app makes no other network requests.
 
@@ -162,7 +158,7 @@ Data is stored until you delete it. Uninstalling the app erases everything: the 
 
 Updating the app erases nothing.
 
-No backups exist on our servers, because there are no servers. If Android automatic backup is enabled, data may be restored from your Google Drive after reinstalling.
+No backups exist on our servers, because there are no servers. The app does not use the phone's system backup either: uninstalling the app or clearing its data erases everything for good. The only way to move your data to another phone is the backup file you make yourself.
 
 ## Children
 
